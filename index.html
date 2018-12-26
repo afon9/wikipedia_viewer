@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!-- Main page -->
+<div class = "container-fluid"  id = "main_page">
+  
+  <div class = "row text-center">
+    <h1 class="headline">Wikipedia Search Engine</h1>
+  </div>
+  
+  <div class = "row text-center">
+    <input type="text" name="search" class = "input" id = "inputId1" placeholder="Search Wikipedia..">
+  </div>
+  
+  <div class = "row text-center">
+    
+      <button class="button btn btn-search" id = "WikiSearch1">Wiki Search</button>
+      <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" class="button btn btn-lucky">I am feeling lucky</a>
+  </div>
+  <div class = "footer">
+  <p>Coded by <a href="https://www.freecodecamp.org/afon9" target="_blank">Rufat Alimurzaev</a></p>
+</div>
+</div>
+<!-- search results -->
+<div class = "container-fluid" id = "results" style="display:none;">
+  <div class = "row text-center well">
+    
+    <div class = "col-xs-9">
+      <div>
+        <input type="text" name="search" class = "input" id = "inputId2" placeholder="Search Wikipedia..">
+      </div>
+      <div>
+        <button class="button btn btn-search" id = "WikiSearch2">Wiki Search</button>
+        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" class="button btn btn-lucky">I am feeling lucky</a>
+      </div>
+    </div>
+    
+    <div class = "row col-xs-3">
+      <h1 class="headline">Wikipedia Search</h1>
+    </div>
+    
+  </div>
+  
+  <div id = "search_results">
+  </div>
+  <hr>
+  <div class = "footer">
+  <p>Coded by <a href="https://www.freecodecamp.org/afon9" target="_blank">Rufat Alimurzaev</a></p>
+  </div>
+  
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
